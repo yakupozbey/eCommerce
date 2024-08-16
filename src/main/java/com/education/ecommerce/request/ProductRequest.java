@@ -10,7 +10,6 @@ import java.util.UUID;
 @NoArgsConstructor
 @Builder
 public class ProductRequest {
-    private UUID productId;
     private String productName;
     private String productDescription;
     private Long productPrice;

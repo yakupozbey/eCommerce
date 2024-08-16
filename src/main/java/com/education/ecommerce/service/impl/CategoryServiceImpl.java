@@ -54,4 +54,6 @@ public class CategoryServiceImpl implements CategoryService {
     public Category findById(UUID categoryId) {
         return repository.findCategoryByCategoryId(categoryId);
     }
+
+
 }
